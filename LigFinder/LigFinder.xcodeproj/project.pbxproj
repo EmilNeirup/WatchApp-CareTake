@@ -1,0 +1,820 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C199F5B6CCBD547B9BAD6E0 /* Pods_LigFinder_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88512564A3CE24BE9BDA1881 /* Pods_LigFinder_WatchKit_Extension.framework */; };
+		3C34D9452627159200ACDCF3 /* LigFinder WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3C34D9442627159200ACDCF3 /* LigFinder WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3C34D94B2627159200ACDCF3 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C34D9492627159200ACDCF3 /* Interface.storyboard */; };
+		3C34D94D2627159400ACDCF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C34D94C2627159400ACDCF3 /* Assets.xcassets */; };
+		3C34D9542627159400ACDCF3 /* LigFinder WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3C34D9532627159400ACDCF3 /* LigFinder WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3C34D9592627159400ACDCF3 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C34D9582627159400ACDCF3 /* HostingController.swift */; };
+		3C34D95B2627159400ACDCF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C34D95A2627159400ACDCF3 /* ContentView.swift */; };
+		3C34D95D2627159400ACDCF3 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C34D95C2627159400ACDCF3 /* ExtensionDelegate.swift */; };
+		3C34D95F2627159400ACDCF3 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C34D95E2627159400ACDCF3 /* NotificationController.swift */; };
+		3C34D9612627159400ACDCF3 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C34D9602627159400ACDCF3 /* NotificationView.swift */; };
+		3C34D9632627159400ACDCF3 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C34D9622627159400ACDCF3 /* ComplicationController.swift */; };
+		3C34D9652627159500ACDCF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C34D9642627159500ACDCF3 /* Assets.xcassets */; };
+		3C34D9682627159500ACDCF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C34D9672627159500ACDCF3 /* Preview Assets.xcassets */; };
+		3C58116D264A5AAA003729C7 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3C58116C264A5AAA003729C7 /* Alamofire */; };
+		3C81EC552639B93A008C0293 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C81EC542639B93A008C0293 /* Location.swift */; };
+		3C81EC57263A9BE3008C0293 /* Puls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C81EC56263A9BE3008C0293 /* Puls.swift */; };
+		3C81EC59263AA582008C0293 /* DataTransfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C81EC58263AA582008C0293 /* DataTransfer.swift */; };
+		3C81EC5C263ADC33008C0293 /* WatchOsCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3C81EC5A263ADC33008C0293 /* WatchOsCoreData.xcdatamodeld */; };
+		3C81EC5E263AE2C5008C0293 /* WatchInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C81EC5D263AE2C5008C0293 /* WatchInfo.swift */; };
+		3CF46B9726416C66004F5273 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 3CF46B9626416C66004F5273 /* SwiftyJSON */; };
+		3CFDFF882627385200EC33D9 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CFDFF872627385200EC33D9 /* HealthKit.framework */; };
+		6CBA4EF23FD60439667D610F /* Pods_LigFinder_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 552BDBE41F532662F404D351 /* Pods_LigFinder_WatchKit_App.framework */; };
+		7950B87E512318103E594FCF /* Pods_LigFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 533A2D71F96C052DACC20E99 /* Pods_LigFinder.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C34D9462627159200ACDCF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C34D93A2627159200ACDCF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C34D9432627159200ACDCF3;
+			remoteInfo = "LigFinder WatchKit App";
+		};
+		3C34D9552627159400ACDCF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C34D93A2627159200ACDCF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C34D9522627159400ACDCF3;
+			remoteInfo = "LigFinder WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3C34D9702627159500ACDCF3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3C34D9542627159400ACDCF3 /* LigFinder WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C34D9742627159500ACDCF3 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3C34D9452627159200ACDCF3 /* LigFinder WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		31D624B4F197DB1C0EEC1989 /* Pods-LigFinder WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LigFinder WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-LigFinder WatchKit Extension/Pods-LigFinder WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		3C34D9402627159200ACDCF3 /* LigFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LigFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C34D9442627159200ACDCF3 /* LigFinder WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LigFinder WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C34D94A2627159200ACDCF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		3C34D94C2627159400ACDCF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C34D94E2627159400ACDCF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C34D9532627159400ACDCF3 /* LigFinder WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "LigFinder WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C34D9582627159400ACDCF3 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		3C34D95A2627159400ACDCF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3C34D95C2627159400ACDCF3 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		3C34D95E2627159400ACDCF3 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		3C34D9602627159400ACDCF3 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		3C34D9622627159400ACDCF3 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		3C34D9642627159500ACDCF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C34D9672627159500ACDCF3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3C34D9692627159500ACDCF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C34D96A2627159500ACDCF3 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		3C81EC542639B93A008C0293 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		3C81EC56263A9BE3008C0293 /* Puls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puls.swift; sourceTree = "<group>"; };
+		3C81EC58263AA582008C0293 /* DataTransfer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTransfer.swift; sourceTree = "<group>"; };
+		3C81EC5B263ADC33008C0293 /* WatchOsCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WatchOsCoreData.xcdatamodel; sourceTree = "<group>"; };
+		3C81EC5D263AE2C5008C0293 /* WatchInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchInfo.swift; sourceTree = "<group>"; };
+		3CFDFF852627385200EC33D9 /* LigFinder WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "LigFinder WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		3CFDFF872627385200EC33D9 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.2.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		533A2D71F96C052DACC20E99 /* Pods_LigFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LigFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		552BDBE41F532662F404D351 /* Pods_LigFinder_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LigFinder_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BFFD1111FF7CE2E036F8E47 /* Pods-LigFinder WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LigFinder WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-LigFinder WatchKit Extension/Pods-LigFinder WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		88512564A3CE24BE9BDA1881 /* Pods_LigFinder_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LigFinder_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A22135BB7CA53C3910915AEE /* Pods-LigFinder WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LigFinder WatchKit App.release.xcconfig"; path = "Target Support Files/Pods-LigFinder WatchKit App/Pods-LigFinder WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		B406434F1E9C699FA3F0B8C6 /* Pods-LigFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LigFinder.debug.xcconfig"; path = "Target Support Files/Pods-LigFinder/Pods-LigFinder.debug.xcconfig"; sourceTree = "<group>"; };
+		F92518FD3CE2DE68AB33C52C /* Pods-LigFinder WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LigFinder WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-LigFinder WatchKit App/Pods-LigFinder WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		FAE4AF82214D5D1E2B82EF4B /* Pods-LigFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LigFinder.release.xcconfig"; path = "Target Support Files/Pods-LigFinder/Pods-LigFinder.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C34D9502627159400ACDCF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF46B9726416C66004F5273 /* SwiftyJSON in Frameworks */,
+				3C58116D264A5AAA003729C7 /* Alamofire in Frameworks */,
+				3CFDFF882627385200EC33D9 /* HealthKit.framework in Frameworks */,
+				2C199F5B6CCBD547B9BAD6E0 /* Pods_LigFinder_WatchKit_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AE6D55F3984654A65753188 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CBA4EF23FD60439667D610F /* Pods_LigFinder_WatchKit_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F845F6854DB6E98D1A5EDE0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7950B87E512318103E594FCF /* Pods_LigFinder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D0663C0FC1D6852D21BAADB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B406434F1E9C699FA3F0B8C6 /* Pods-LigFinder.debug.xcconfig */,
+				FAE4AF82214D5D1E2B82EF4B /* Pods-LigFinder.release.xcconfig */,
+				F92518FD3CE2DE68AB33C52C /* Pods-LigFinder WatchKit App.debug.xcconfig */,
+				A22135BB7CA53C3910915AEE /* Pods-LigFinder WatchKit App.release.xcconfig */,
+				7BFFD1111FF7CE2E036F8E47 /* Pods-LigFinder WatchKit Extension.debug.xcconfig */,
+				31D624B4F197DB1C0EEC1989 /* Pods-LigFinder WatchKit Extension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3C34D9392627159200ACDCF3 = {
+			isa = PBXGroup;
+			children = (
+				3C34D9482627159200ACDCF3 /* LigFinder WatchKit App */,
+				3C34D9572627159400ACDCF3 /* LigFinder WatchKit Extension */,
+				3C34D9412627159200ACDCF3 /* Products */,
+				3CFDFF862627385200EC33D9 /* Frameworks */,
+				2D0663C0FC1D6852D21BAADB /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		3C34D9412627159200ACDCF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C34D9402627159200ACDCF3 /* LigFinder.app */,
+				3C34D9442627159200ACDCF3 /* LigFinder WatchKit App.app */,
+				3C34D9532627159400ACDCF3 /* LigFinder WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C34D9482627159200ACDCF3 /* LigFinder WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				3C34D9492627159200ACDCF3 /* Interface.storyboard */,
+				3C34D94C2627159400ACDCF3 /* Assets.xcassets */,
+				3C34D94E2627159400ACDCF3 /* Info.plist */,
+			);
+			path = "LigFinder WatchKit App";
+			sourceTree = "<group>";
+		};
+		3C34D9572627159400ACDCF3 /* LigFinder WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3CFDFF852627385200EC33D9 /* LigFinder WatchKit Extension.entitlements */,
+				3C34D9582627159400ACDCF3 /* HostingController.swift */,
+				3C34D95A2627159400ACDCF3 /* ContentView.swift */,
+				3C34D95C2627159400ACDCF3 /* ExtensionDelegate.swift */,
+				3C34D95E2627159400ACDCF3 /* NotificationController.swift */,
+				3C34D9602627159400ACDCF3 /* NotificationView.swift */,
+				3C34D9622627159400ACDCF3 /* ComplicationController.swift */,
+				3C34D9642627159500ACDCF3 /* Assets.xcassets */,
+				3C34D9692627159500ACDCF3 /* Info.plist */,
+				3C34D96A2627159500ACDCF3 /* PushNotificationPayload.apns */,
+				3C34D9662627159500ACDCF3 /* Preview Content */,
+				3C81EC542639B93A008C0293 /* Location.swift */,
+				3C81EC56263A9BE3008C0293 /* Puls.swift */,
+				3C81EC58263AA582008C0293 /* DataTransfer.swift */,
+				3C81EC5A263ADC33008C0293 /* WatchOsCoreData.xcdatamodeld */,
+				3C81EC5D263AE2C5008C0293 /* WatchInfo.swift */,
+			);
+			path = "LigFinder WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		3C34D9662627159500ACDCF3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3C34D9672627159500ACDCF3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3CFDFF862627385200EC33D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CFDFF872627385200EC33D9 /* HealthKit.framework */,
+				533A2D71F96C052DACC20E99 /* Pods_LigFinder.framework */,
+				552BDBE41F532662F404D351 /* Pods_LigFinder_WatchKit_App.framework */,
+				88512564A3CE24BE9BDA1881 /* Pods_LigFinder_WatchKit_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C34D93F2627159200ACDCF3 /* LigFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C34D9752627159500ACDCF3 /* Build configuration list for PBXNativeTarget "LigFinder" */;
+			buildPhases = (
+				FCA0F56C66CB8313C64019F8 /* [CP] Check Pods Manifest.lock */,
+				3C34D93E2627159200ACDCF3 /* Resources */,
+				3C34D9742627159500ACDCF3 /* Embed Watch Content */,
+				F845F6854DB6E98D1A5EDE0C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C34D9472627159200ACDCF3 /* PBXTargetDependency */,
+			);
+			name = LigFinder;
+			productName = LigFinder;
+			productReference = 3C34D9402627159200ACDCF3 /* LigFinder.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		3C34D9432627159200ACDCF3 /* LigFinder WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C34D9712627159500ACDCF3 /* Build configuration list for PBXNativeTarget "LigFinder WatchKit App" */;
+			buildPhases = (
+				528D3A6E6B786E87F0203F9A /* [CP] Check Pods Manifest.lock */,
+				3C34D9422627159200ACDCF3 /* Resources */,
+				3C34D9702627159500ACDCF3 /* Embed App Extensions */,
+				7AE6D55F3984654A65753188 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C34D9562627159400ACDCF3 /* PBXTargetDependency */,
+			);
+			name = "LigFinder WatchKit App";
+			productName = "LigFinder WatchKit App";
+			productReference = 3C34D9442627159200ACDCF3 /* LigFinder WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		3C34D9522627159400ACDCF3 /* LigFinder WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C34D96D2627159500ACDCF3 /* Build configuration list for PBXNativeTarget "LigFinder WatchKit Extension" */;
+			buildPhases = (
+				DC5F02CC38BE287435C1686F /* [CP] Check Pods Manifest.lock */,
+				3C34D94F2627159400ACDCF3 /* Sources */,
+				3C34D9502627159400ACDCF3 /* Frameworks */,
+				3C34D9512627159400ACDCF3 /* Resources */,
+				05C379C289CAC689E669BAD0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LigFinder WatchKit Extension";
+			packageProductDependencies = (
+				3CF46B9626416C66004F5273 /* SwiftyJSON */,
+				3C58116C264A5AAA003729C7 /* Alamofire */,
+			);
+			productName = "LigFinder WatchKit Extension";
+			productReference = 3C34D9532627159400ACDCF3 /* LigFinder WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C34D93A2627159200ACDCF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					3C34D93F2627159200ACDCF3 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					3C34D9432627159200ACDCF3 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					3C34D9522627159400ACDCF3 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 3C34D93D2627159200ACDCF3 /* Build configuration list for PBXProject "LigFinder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C34D9392627159200ACDCF3;
+			packageReferences = (
+				3CF46B9526416C66004F5273 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				3CF46B9826416CCF004F5273 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 3C34D9412627159200ACDCF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C34D93F2627159200ACDCF3 /* LigFinder */,
+				3C34D9432627159200ACDCF3 /* LigFinder WatchKit App */,
+				3C34D9522627159400ACDCF3 /* LigFinder WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C34D93E2627159200ACDCF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C34D9422627159200ACDCF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C34D94D2627159400ACDCF3 /* Assets.xcassets in Resources */,
+				3C34D94B2627159200ACDCF3 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C34D9512627159400ACDCF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C34D9682627159500ACDCF3 /* Preview Assets.xcassets in Resources */,
+				3C34D9652627159500ACDCF3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05C379C289CAC689E669BAD0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LigFinder WatchKit Extension/Pods-LigFinder WatchKit Extension-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LigFinder WatchKit Extension/Pods-LigFinder WatchKit Extension-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LigFinder WatchKit Extension/Pods-LigFinder WatchKit Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		528D3A6E6B786E87F0203F9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LigFinder WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC5F02CC38BE287435C1686F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LigFinder WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCA0F56C66CB8313C64019F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LigFinder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C34D94F2627159400ACDCF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C34D95B2627159400ACDCF3 /* ContentView.swift in Sources */,
+				3C81EC57263A9BE3008C0293 /* Puls.swift in Sources */,
+				3C81EC5C263ADC33008C0293 /* WatchOsCoreData.xcdatamodeld in Sources */,
+				3C34D9592627159400ACDCF3 /* HostingController.swift in Sources */,
+				3C81EC59263AA582008C0293 /* DataTransfer.swift in Sources */,
+				3C81EC5E263AE2C5008C0293 /* WatchInfo.swift in Sources */,
+				3C34D95F2627159400ACDCF3 /* NotificationController.swift in Sources */,
+				3C34D95D2627159400ACDCF3 /* ExtensionDelegate.swift in Sources */,
+				3C34D9612627159400ACDCF3 /* NotificationView.swift in Sources */,
+				3C34D9632627159400ACDCF3 /* ComplicationController.swift in Sources */,
+				3C81EC552639B93A008C0293 /* Location.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C34D9472627159200ACDCF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C34D9432627159200ACDCF3 /* LigFinder WatchKit App */;
+			targetProxy = 3C34D9462627159200ACDCF3 /* PBXContainerItemProxy */;
+		};
+		3C34D9562627159400ACDCF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C34D9522627159400ACDCF3 /* LigFinder WatchKit Extension */;
+			targetProxy = 3C34D9552627159400ACDCF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C34D9492627159200ACDCF3 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C34D94A2627159200ACDCF3 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C34D96B2627159500ACDCF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C34D96C2627159500ACDCF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C34D96E2627159500ACDCF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BFFD1111FF7CE2E036F8E47 /* Pods-LigFinder WatchKit Extension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "LigFinder WatchKit Extension/LigFinder WatchKit Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LigFinder WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = JYFX5HGRLC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "LigFinder WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ENJsjov.LigFinder.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		3C34D96F2627159500ACDCF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31D624B4F197DB1C0EEC1989 /* Pods-LigFinder WatchKit Extension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "LigFinder WatchKit Extension/LigFinder WatchKit Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LigFinder WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = JYFX5HGRLC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "LigFinder WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ENJsjov.LigFinder.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		3C34D9722627159500ACDCF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F92518FD3CE2DE68AB33C52C /* Pods-LigFinder WatchKit App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JYFX5HGRLC;
+				IBSC_MODULE = LigFinder_WatchKit_Extension;
+				INFOPLIST_FILE = "LigFinder WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = ENJsjov.LigFinder.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		3C34D9732627159500ACDCF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A22135BB7CA53C3910915AEE /* Pods-LigFinder WatchKit App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JYFX5HGRLC;
+				IBSC_MODULE = LigFinder_WatchKit_Extension;
+				INFOPLIST_FILE = "LigFinder WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = ENJsjov.LigFinder.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		3C34D9762627159500ACDCF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B406434F1E9C699FA3F0B8C6 /* Pods-LigFinder.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JYFX5HGRLC;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ENJsjov.LigFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3C34D9772627159500ACDCF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAE4AF82214D5D1E2B82EF4B /* Pods-LigFinder.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JYFX5HGRLC;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ENJsjov.LigFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C34D93D2627159200ACDCF3 /* Build configuration list for PBXProject "LigFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C34D96B2627159500ACDCF3 /* Debug */,
+				3C34D96C2627159500ACDCF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C34D96D2627159500ACDCF3 /* Build configuration list for PBXNativeTarget "LigFinder WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C34D96E2627159500ACDCF3 /* Debug */,
+				3C34D96F2627159500ACDCF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C34D9712627159500ACDCF3 /* Build configuration list for PBXNativeTarget "LigFinder WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C34D9722627159500ACDCF3 /* Debug */,
+				3C34D9732627159500ACDCF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C34D9752627159500ACDCF3 /* Build configuration list for PBXNativeTarget "LigFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C34D9762627159500ACDCF3 /* Debug */,
+				3C34D9772627159500ACDCF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3CF46B9526416C66004F5273 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		3CF46B9826416CCF004F5273 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3C58116C264A5AAA003729C7 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3CF46B9826416CCF004F5273 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		3CF46B9626416C66004F5273 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3CF46B9526416C66004F5273 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		3C81EC5A263ADC33008C0293 /* WatchOsCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3C81EC5B263ADC33008C0293 /* WatchOsCoreData.xcdatamodel */,
+			);
+			currentVersion = 3C81EC5B263ADC33008C0293 /* WatchOsCoreData.xcdatamodel */;
+			path = WatchOsCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3C34D93A2627159200ACDCF3 /* Project object */;
+}

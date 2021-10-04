@@ -1,0 +1,6 @@
+framework module Pods_LigFinder_WatchKit_App {
+  umbrella header "Pods-LigFinder WatchKit App-umbrella.h"
+
+  export *
+  module * { export * }
+}
